@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // パスワードを照合
             if (password_verify($password, $user_data[1])) {
                 $_SESSION['username'] = $username;  // セッションにユーザー名を保存
-                header("Location: board.php");  // board.phpにリダイレクト
+                header("Location: timeline.html");  // timeline.htmlにリダイレクト
                 exit;
             } else {
                 $error_message = "パスワードが間違っています。";
