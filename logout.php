@@ -8,7 +8,7 @@ session_destroy();  // セッションを破棄
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="3;url=login.php"> <!-- 3秒後にlogin.phpへリダイレクト -->
+    <meta http-equiv="refresh" content="3;url=index.php"> <!-- 3秒後にindex.phpへリダイレクト -->
     <title>ログアウト</title>
 </head>
 <body>
@@ -17,5 +17,5 @@ session_destroy();  // セッションを破棄
 </body>
 </html>
 <?php
-// 上記のHTMLが表示された後、3秒経過で自動的にlogin.phpへリダイレクトされます。
+// 上記のHTMLが表示された後、3秒経過で自動的にindex.phpへリダイレクトされます。
 ?>
